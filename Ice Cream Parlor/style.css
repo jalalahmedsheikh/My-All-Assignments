@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(236, 234, 234);
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+.li{
+    flex: 1;
+    text-align: right;
+}
+.li{
+    display: inline-block;
+    list-style: none;
+}
+.li li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.li li:hover{
+	background-color: #e32a611a;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.bnnr{
+    background-image: url(imgs/img2.jpg);
+    background-size: cover;
+    height: 1100px;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+}
+.bnnr h2, p{
+    opacity: 1;
+    color: white;
+}
+.bnnr a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 1px 1px;
+    margin-top: 10px;
+    margin-left: 12px;
+    position: relative;
+    top: 20px;
+}
+.bnnr h2{
+    text-align: center;
+    padding-top: 290px;
+}
+.bnnr p{
+    text-align: center;
+}
+#body.home div.body {
+	background-color: #eae7e8;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.body div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+#body.home div.body div div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	width: 560px;
+}
+#body.home div.body div img {
+	display: block;
+	float: right;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#body.home div.body div div h1 {
+	color: #7A6666;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 47px 0 18px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 560px;
+}
+#body.home div.body div div h2 {
+	color: #E32A62;
+	display: block;
+	font-family: magra-bold-webfont;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 26px;
+	text-align: left;
+	text-transform: none;
+	width: 560px;
+}
+#body.home div.body div div p {
+	color: #7a6666;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 560px;
+}
+.b-menu ul,li{
+	display: inline;
+	justify-content: center;
+	display: flex;
+	justify-content: space-evenly;
+}
